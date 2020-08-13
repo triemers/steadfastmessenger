@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Steadfast Messenger</title>
+   <link href="Steadfast.css" type="text/css" rel="stylesheet">
+ </head>
+ <body>
+<header>
+	<nav> 
+		<!---REDO THIS SECTION TO BE FLEX?-->
+ 		<ul class="navbar">
+			<li><a href=#About>About Us</a></li> 
+			<li><a href=#services>Services</a></li>
+			<li><a href=#quote>Get A Quote</a></li>
+			<li><a href=#order>Place an Order</a></li>
+			<li><a href=#contact>Contact Us</a></li>
+			<li class="portal"><a href= "https://www.steadfastxcelerator.com/clientportal" class="navlink" target="_blank"> Client Portal </a></li>
+		 </ul>
+	</nav>
+	<img src="C:\Users\triem\Documents\Programming\Steadfast\Assets\steadfasthero.jpg" alt="steadfast-messenger" class="heroimage">
+</header>
+ 	<div class="About" id="About">
+		 <div class="abouthead">
+		 	<h2>ABOUT US</h2>
+		 </div>
+		<div id="aboutp">
+ 			<p>Steadfast is a courier owned and operated, same-day delivery service based in Washington DC, serving the DMV region. </p>
+ 				<br> 
+			 <p>We serve clients in the legal, architectural, corporate/information services, real estate, fashion, retail industries and more!</p>
+				<br> 
+			<p>If you need something to get from one point to another, odds are we can help!</p> 
+ 				<br>
+ 			<p>With a track record of successfully providing solutions for outside of the box requests, you can think of our crew of experienced bikers and car drivers as mobile problem solvers. </p>
+		</div>
+		<div id="DK">
+			<img src= "C:\Users\triem\Documents\Programming\Steadfast\Assets\dkcropped.jpg" alt="steadfast courier" id="DK">
+		</div>
+	</div>
+ 	<div class="Services">
+ 		<h2>OUR SERVICES</h2>
+		 <p>Our services include, but are not limited to:</p><br>
+		 <div id="servlist">
+			<ul>
+				<li class="serv">On-demand and pre-scheduled deliveries,<br> big and small</li>
+				<li class="serv">Rush and DIRECT ASAP services</li>
+				<li class="serv">Service of Process</li>
+				<li class="serv">Mobile Notary</li>
+				<li class="serv">Bulk Mail Services</li>
+				<li class="serv">Printing of emailed documents to deliver or serve</li>
+				<li class="serv">Special missions! (We love those)</li>
+			</ul>
+		</div>
+ 	</div>
+ 	<img src="C:\Users\triem\Documents\Programming\Steadfast\Assets\galleryplacelong.png" alt="chinatown-dc" id="gallery-place">
+ 	<div id="quote" class="quote">
+		 <h2>GET A QUOTE</h2>
+		 <p>Please fill out the following form and we will get back to you as soon as possible!</p><br>
+		 <form id= "quoteform" action="mailto:info@steadfastmessenger.com" method="POST" enctype="text/plain">
+			 <label for="name">Name</label>
+			 <input type="text" id="name" name="name" placeholder="First and Last Name">
+			 <label for="company">Company</label>
+			 <input type="text" id="company" name="company" placeholder="Company Name"><br>
+			 <label for="phone">Phone Number</label>
+			 <input type="tel" id="phone" name="phone" placeholder="800-867-5309">
+			 <label for="email">Email Address</label>
+			 <input type="email" id="email" name="email" placeholder="jenny@tutone.com"><br>
+			 <label for="pick">Pickup Location</label>
+			 <input type="text" id="pick" name="pick" placeholder="400 7th Street">
+			 <label for="drop">Dropoff Location</label>
+			 <input type="text" id="drop" name="drop" placeholder="1600 Pennsylvania Ave"><br>
+			 <label for="service">Service Speed</label>
+			 <select id="service" name="service">
+			   <option value="Regular">Regular</option>
+			   <option value="Rush">Rush</option>
+			   <option value="ASAP">Direct ASAP</option>
+		    </select>
+			<label for="notes">Notes</label>
+			<textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea><br>
+			<input id="submit" class="button" type="submit" value="Send">
+
+		 </form>
+ 		
+	 </div>
+	 <div class="order" id="order">
+		 <h2>PLACE AN ORDER</h2>
+		 <p>Please properly label your packages with as much information as you can. <br>
+		 Client Online orders can print our own waybills from the web portal to attach, or when placing an over the phone or email just ask for us to send the waybill via email. <br>
+		 Please take care in protecting your items as best as possible. Yes, you can just hand us a phone, key, laptop, goldfish or shoe, but for the safety of your package PLEASE take care in packing and labelling. <br>
+		 Steadfast is not responsible for damages to negligently packaged or loss of improperly labelled items. </p>
+		 <div class="button" id="orders">
+			 <p>One-Time Orders</p>
+		 </div><br>
+		 <div class="button" id="orders">
+			 <a href="https://www.steadfastxcelerator.com/clientportal" target="_blank">Existing Clients - Click Here</a>
+		 </div>
+	 </div>
+	 <div class="contact" id="contact">
+		 <h2>CONTACT US</h2>
+		 <p>Want to get ahold of us? Call us during business hours from 8AM to 5PM, Monday through Friday, or email us at any time! </p>
+		 <a href="tel:202-499-0943">202-499-0943</a>
+		 <a href="mailto:info@steadfastmessenger.com">info@steadfastmessenger.com</a>
+	 </div>
+	 <footer>
+		 <p> &copy; Steadfast Messenger 2020</p>
+		 <div id="social">
+			 <p>Check us out on Instagram!</p>
+			<a href="https://www.instagram.com/steadfastmessenger/?hl=en" target="_blank">@SteadfastMessenger</a>
+		 </div>
+	 </footer>
+ </body>
+</html>

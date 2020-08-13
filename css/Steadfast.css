@@ -1,0 +1,233 @@
+* {
+ margin: 0;
+ padding:0;	
+}
+
+html {
+	background-color: #e2e2e2;
+}
+
+
+
+header {
+	width: 100%;
+	text-decoration-style: none;
+	z-index: 10;
+	background-size: cover;
+
+}
+
+/*nav bar*/
+nav {
+	margin: 0;
+	position: fixed;
+	top: 0;
+	background-color: #e2e2e2;
+	width: 100%;
+	z-index: 10;
+	display: inline-flex;
+	justify-content: flex-end;
+}
+
+nav li {
+ 	color: brown;
+	 font-family: Calibri, 'Trebuchet MS', sans-serif;
+	 display: inline-flex;
+}
+
+nav a {
+	float: right;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: brown;
+	padding: 3px 8px;
+	margin: 0;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+	color: orange;
+}
+
+nav a:visited {
+	text-decoration: none;
+}
+/*client portal styled differently*/
+.portal {
+	font-size: 1.5rem;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration:none;
+	color: white !important; 
+	background-image: linear-gradient(#D9342E, #822B14);
+	padding: 2px 10px;
+	float: right;
+}
+
+
+.portal:hover {
+	color: orange;
+}
+
+
+.heroimage {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-family: Bahnschrift;
+	font-weight: bold;
+	color: #FFA31C;
+	font-size: 3rem;
+	text-shadow: 1px 2px #A25B1C;
+}
+
+
+.About {
+	color: #ffffff;
+	background-image: linear-gradient(#D9342E, #822B14);
+	font-family: arial;
+	font-size: 1.25rem;
+	padding-left: 20px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-grow: 1;
+	align-content: center;
+	min-height: 25rem;
+	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+
+.abouthead {
+	writing-mode: vertical-lr;
+	text-orientation: sideways;
+	transform: rotate(180deg);
+	align-self: center;
+	margin-top: 0em;
+}
+
+#aboutp {
+	align-self: center;
+	justify-self: center;
+	padding: 2rem;
+}
+
+
+#DK {
+	width: auto;
+	height: 25rem;
+}
+
+
+/* Services 
+currently need to: edit BG image, close the gap, make ul with bullets,
+figure out how to add expansions (dropdown html feat???)*/
+.Services {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.5rem;
+	background-image: url('mapbg.png');
+}
+
+.Services li {
+	list-style-type: disc;
+}
+
+/*how to close that gap at bottom????*/
+
+#gallery-place {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.quote {
+	font-family: arial;
+	color: #ffffff;
+	font-size: 1.25rem;
+	background-image: linear-gradient(#D9342E, #822B14);
+	text-align: center;
+	margin: 0;
+	border: 0;
+}
+
+.order {
+	background-color: #e2e2e2;
+	font-size: 1.5rem;
+	color: black;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.order h2 {
+	float: right;
+}
+
+.order .button {
+	float: right;
+}
+
+.order p {
+	float: left;
+}
+
+#contact {
+	background-image: linear-gradient(brown, #471c1c);
+	color: white;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.5rem;
+}
+.contact a {
+	text-decoration: none;
+	color: #FFA31C;
+}
+
+.contact a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.button {
+	background-image: linear-gradient(#FC9C1C, #B42A26);
+	border: 1px #B42A26;
+	text-align: center;
+	margin: 20px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 6px 20px;
+	width: 220px;
+	height: 80px;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	color: #ffffff;
+	font-size: 1.75rem;
+	text-decoration: none;
+	border-radius: 4%;
+}
+
+#order {
+	float: right;
+}
+
+.button:hover {
+	background-image: linear-gradient(#d10d07, #5a1a18);
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.footer {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+	position: fixed;
+	background-image: linear-gradient(#5a1a18, #000);
+	color: white;
+	text-decoration: none;
+	float: center;
+}
+
+#social {
+	float: right;
+	text-decoration: none;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1rem;
+}
