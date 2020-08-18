@@ -57,10 +57,13 @@ nav a:visited {
 	font-size: 1.5rem;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	text-decoration:none;
-	color: white !important; 
 	background-image: linear-gradient(#D9342E, #822B14);
 	padding: 2px 10px;
 	float: right;
+}
+
+.navlink {
+	color: white;
 }
 
 
@@ -68,7 +71,7 @@ nav a:visited {
 	color: orange;
 }
 
-
+/*body*/
 .heroimage {
 	width: 100%;
 	height: auto;
@@ -82,7 +85,7 @@ h2 {
 	text-shadow: 1px 2px #A25B1C;
 }
 
-
+/*About section- rotate*/
 .About {
 	color: #ffffff;
 	background-image: linear-gradient(#D9342E, #822B14);
@@ -120,18 +123,25 @@ h2 {
 
 
 /* Services 
-currently need to: edit BG image, close the gap, make ul with bullets,
-figure out how to add expansions (dropdown html feat???)*/
+currently need to: edit BG image, close the gap*/
 .Services {
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.5rem;
-	background-image: url('mapbg.png');
+	background-image: url('css/imgs/mapbg.png');
+	padding-bottom: 2rem;
+	padding-left: 2rem;
 }
 
-.Services li {
-	list-style-type: disc;
+.Services li{
+	list-style-type: circle;
+	margin-left: 5%;
 }
-
+.sub {
+	font-size: 1rem;
+	font-family: sans-serif;
+	margin-left: 3%;
+	margin-right: 5%;
+}
 /*how to close that gap at bottom????*/
 
 #gallery-place {
@@ -141,7 +151,7 @@ figure out how to add expansions (dropdown html feat???)*/
 	border: 0;
 	padding: 0;
 }
-
+/*wuote- format form - validate w JS send w PHP*/
 .quote {
 	font-family: arial;
 	color: #ffffff;
@@ -152,6 +162,31 @@ figure out how to add expansions (dropdown html feat???)*/
 	border: 0;
 }
 
+form {
+		overflow: hidden;
+	}
+	 
+label {
+		float: left;
+		width: 200px;
+		padding-right: 24px;
+	}
+	 
+input {
+		float: left;
+		width: 200px;
+	}
+#service {
+	float: left;
+	}
+
+#notes {
+	float: left;
+}
+#submit {
+	display: block;
+}
+/* order - p breaks */
 .order {
 	background-color: #e2e2e2;
 	font-size: 1.5rem;
@@ -161,17 +196,51 @@ figure out how to add expansions (dropdown html feat???)*/
 }
 .order h2 {
 	float: right;
-}
-
-.order .button {
-	float: right;
+	background-color: #e2e2e2;
 }
 
 .order p {
 	float: left;
+	background-color: #e2e2e2;
+	margin-top: 4rem;
+	margin-left: 1rem;
+	margin-right: 2rem;
 }
 
-#contact {
+.buttons {
+	display: inline;
+	text-decoration: none;
+	margin-left: 30%;
+}
+.buttons a {
+	text-decoration: none;
+}
+.orderbutton {
+	background-image: linear-gradient(#FC9C1C, #B42A26);
+	border: 1px #B42A26;
+	text-align: center;
+	margin: 20px;
+	padding: 6px 20px;
+	width: 220px;
+	height: 80px;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	color: #ffffff;
+	font-size: 1.75rem;
+	text-decoration: none;
+	border-radius: 4%;
+}
+
+.orderbutton:hover {
+	background-image: linear-gradient(#d10d07, #5a1a18);
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+
+
+/* contact - move number and email to top right, change bg, more white space */
+.contact {
 	background-image: linear-gradient(brown, #471c1c);
 	color: white;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -214,8 +283,9 @@ figure out how to add expansions (dropdown html feat???)*/
 	color: #ffffff;
 	cursor: pointer;
 }
-
+/*fix fonts, social media link and icon, bg */
 .footer {
+	height: 2rem;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1rem;
 	position: fixed;

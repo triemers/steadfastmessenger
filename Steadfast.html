@@ -2,7 +2,7 @@
 <html>
  <head>
    <title>Steadfast Messenger</title>
-   <link href="Steadfast.css" type="text/css" rel="stylesheet">
+   <link href="css/Steadfast.css" type="text/css" rel="stylesheet">
  </head>
  <body>
 <header>
@@ -17,7 +17,7 @@
 			<li class="portal"><a href= "https://www.steadfastxcelerator.com/clientportal" class="navlink" target="_blank"> Client Portal </a></li>
 		 </ul>
 	</nav>
-	<img src="C:\Users\triem\Documents\Programming\Steadfast\Assets\steadfasthero.jpg" alt="steadfast-messenger" class="heroimage">
+	<img src="css/imgs/steadfasthero.jpg" alt="steadfast-messenger" class="heroimage">
 </header>
  	<div class="About" id="About">
 		 <div class="abouthead">
@@ -33,29 +33,36 @@
  			<p>With a track record of successfully providing solutions for outside of the box requests, you can think of our crew of experienced bikers and car drivers as mobile problem solvers. </p>
 		</div>
 		<div id="DK">
-			<img src= "C:\Users\triem\Documents\Programming\Steadfast\Assets\dkcropped.jpg" alt="steadfast courier" id="DK">
+			<img src= "css/imgs/dkcropped.jpg" alt="steadfast courier" id="DK">
 		</div>
 	</div>
- 	<div class="Services">
+ 	<div class="Services" id="services">
  		<h2>OUR SERVICES</h2>
 		 <p>Our services include, but are not limited to:</p><br>
-		 <div id="servlist">
+		 <div class="servlist">
 			<ul>
 				<li class="serv">On-demand and pre-scheduled deliveries,<br> big and small</li>
 				<li class="serv">Rush and DIRECT ASAP services</li>
 				<li class="serv">Service of Process</li>
+					<ul class="sub">
+						<li class="sub">Steadfast is the fastest way to serve papers in Downtown DC. Our focus is rush and ASAP turnaround on public agency, corporate and registered agent services. Our couriers are experienced process servers meeting all necessary criteria to serve papers in DC, and integrate service of process requests into our daily courier work downtown.</li>
+						<li class="sub">Steadfast partners with numerous nationwide process servers. Please email danny@steadfastmessenger.com if you are a process service company looking for a fast and reliable DC server.​</li>
+					</ul>
 				<li class="serv">Mobile Notary</li>
+					<ul class="sub">
+						<li class="sub">Steadfast offers Mobile Notary services ONLY in Washington DC. Mobile notary standard rate is $50. Please call/text or email for more info​</li>
+					</ul>
 				<li class="serv">Bulk Mail Services</li>
 				<li class="serv">Printing of emailed documents to deliver or serve</li>
 				<li class="serv">Special missions! (We love those)</li>
 			</ul>
 		</div>
  	</div>
- 	<img src="C:\Users\triem\Documents\Programming\Steadfast\Assets\galleryplacelong.png" alt="chinatown-dc" id="gallery-place">
- 	<div id="quote" class="quote">
+ 	<img src="css/imgs/galleryplacelong.png" alt="chinatown-dc" id="gallery-place">
+ 	<div class="quote" id="quote">
 		 <h2>GET A QUOTE</h2>
 		 <p>Please fill out the following form and we will get back to you as soon as possible!</p><br>
-		 <form id= "quoteform" action="mailto:info@steadfastmessenger.com" method="POST" enctype="text/plain">
+		 <form class="getquote" action="mailto:info@steadfastmessenger.com" method="POST" enctype="text/plain">
 			 <label for="name">Name</label>
 			 <input type="text" id="name" name="name" placeholder="First and Last Name">
 			 <label for="company">Company</label>
@@ -75,33 +82,31 @@
 			   <option value="ASAP">Direct ASAP</option>
 		    </select>
 			<label for="notes">Notes</label>
-			<textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea><br>
+			<textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea>
 			<input id="submit" class="button" type="submit" value="Send">
-
 		 </form>
  		
 	 </div>
 	 <div class="order" id="order">
 		 <h2>PLACE AN ORDER</h2>
+		 <p>To place an order Call/Text (202)499-0943 or email info@steadfastmessenger.com.</p>
 		 <p>Please properly label your packages with as much information as you can. <br>
 		 Client Online orders can print our own waybills from the web portal to attach, or when placing an over the phone or email just ask for us to send the waybill via email. <br>
 		 Please take care in protecting your items as best as possible. Yes, you can just hand us a phone, key, laptop, goldfish or shoe, but for the safety of your package PLEASE take care in packing and labelling. <br>
 		 Steadfast is not responsible for damages to negligently packaged or loss of improperly labelled items. </p>
-		 <div class="button" id="orders">
-			 <p>One-Time Orders</p>
-		 </div><br>
-		 <div class="button" id="orders">
-			 <a href="https://www.steadfastxcelerator.com/clientportal" target="_blank">Existing Clients - Click Here</a>
-		 </div>
+		 <div class="buttons">
+			 <a href=#quote><button class="orderbutton">One-Time Orders</button></a>
+			 <a href="https://www.steadfastxcelerator.com/clientportal" target="_blank"><button class="orderbutton">Existing Clients - Click Here</button></a>
+		</div>
 	 </div>
 	 <div class="contact" id="contact">
 		 <h2>CONTACT US</h2>
 		 <p>Want to get ahold of us? Call us during business hours from 8AM to 5PM, Monday through Friday, or email us at any time! </p>
-		 <a href="tel:202-499-0943">202-499-0943</a>
-		 <a href="mailto:info@steadfastmessenger.com">info@steadfastmessenger.com</a>
+		 <br><a href="tel:202-499-0943">202-499-0943</a>
+		 <br><a href="mailto:info@steadfastmessenger.com">info@steadfastmessenger.com</a>
 	 </div>
-	 <footer>
-		 <p> &copy; Steadfast Messenger 2020</p>
+	 <footer class="footer">
+		 <p> &copy; DK Courier 2020</p>
 		 <div id="social">
 			 <p>Check us out on Instagram!</p>
 			<a href="https://www.instagram.com/steadfastmessenger/?hl=en" target="_blank">@SteadfastMessenger</a>
