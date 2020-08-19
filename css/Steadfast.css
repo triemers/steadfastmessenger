@@ -147,9 +147,7 @@ currently need to: edit BG image, close the gap*/
 #gallery-place {
 	width: 100%;
 	height: auto;
-	margin: 0;
-	border: 0;
-	padding: 0;
+	display: block;
 }
 /*wuote- format form - validate w JS send w PHP*/
 .quote {
