@@ -126,8 +126,7 @@ h2 {
 }
 
 
-/* Services 
-currently need to: edit BG image*/
+/* Services */
 .Services {
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.5rem;
@@ -207,17 +206,19 @@ input {
 .order h2 {
 	float: right;
 	background-color: #e2e2e2;
-	padding-top: 1rem;
+	margin-top: 1rem;
 	padding-right: 1rem;
 	margin-bottom: 2rem;
+	transform: rotate(20deg);
 }
 
 .order p {
 	float: left;
 	background-color: #e2e2e2;
-	margin-top: 4rem;
+	margin-top: 1rem;
 	margin-left: 1rem;
 	margin-right: 2rem;
+	display: block;
 }
 
 .buttons {
@@ -267,11 +268,19 @@ input {
 .contact a {
 	text-decoration: none;
 	color: #FFA31C;
+	float: right;
 }
 
 .contact a:hover {
 	color: white;
 	cursor: pointer;
+}
+
+.contact p {
+	display: block;
+	clear: both;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .button {

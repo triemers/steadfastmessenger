@@ -64,14 +64,14 @@
 		 <p>Please fill out the following form and we will get back to you as soon as possible!</p><br>
 		 <form class="getquote" action="mailto:info@steadfastmessenger.com" method="POST" enctype="text/plain">
 		
-			 <input type="text" id="name" name="name" placeholder="First and Last Name">
+			 <input type="text" id="name" name="name" placeholder="First and Last Name" required>
 			 <input type="text" id="company" name="company" placeholder="Company Name"><br>
-			 <input type="tel" id="phone" name="phone" placeholder="Phone Number">
-			 <input type="email" id="email" name="email" placeholder="Email Address"><br>
-			 <input type="text" id="pick" name="pick" placeholder="Pickup Address">
-			 <input type="text" id="drop" name="drop" placeholder="Dropoff Address"><br>
+			 <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+			 <input type="email" id="email" name="email" placeholder="Email Address" required><br>
+			 <input type="text" id="pick" name="pick" placeholder="Pickup Address" required>
+			 <input type="text" id="drop" name="drop" placeholder="Dropoff Address" required><br>
 			 <textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea><br>
-			 <select id="service" name="service">
+			 <select id="service" name="service" required>
 				<option value="select">Select Service Speed</option>
 			   <option value="Regular">Regular</option>
 			   <option value="Rush">Rush</option>
@@ -84,10 +84,10 @@
 	 <div class="order" id="order">
 		 <h2>PLACE AN ORDER</h2>
 		 <p>To place an order Call/Text (202)499-0943 or email info@steadfastmessenger.com.</p>
-		 <p>Please properly label your packages with as much information as you can. <br>
-		 Client Online orders can print our own waybills from the web portal to attach, or when placing an over the phone or email just ask for us to send the waybill via email. <br>
-		 Please take care in protecting your items as best as possible. Yes, you can just hand us a phone, key, laptop, goldfish or shoe, but for the safety of your package PLEASE take care in packing and labelling. <br>
-		 Steadfast is not responsible for damages to negligently packaged or loss of improperly labelled items. </p>
+		 <p>Please properly label your packages with as much information as you can. </p>
+		 <p>Client Online orders can print our own waybills from the web portal to attach, or when placing an over the phone or email just ask for us to send the waybill via email. </p>
+		 <p>Please take care in protecting your items as best as possible. Yes, you can just hand us a phone, key, laptop, goldfish or shoe, but for the safety of your package PLEASE take care in packing and labelling. </p>
+		 <p>Steadfast is not responsible for damages to negligently packaged or loss of improperly labelled items. </p>
 		 <div class="buttons">
 			 <a href=#quote><button class="orderbutton">One-Time Orders</button></a>
 			 <a href="https://www.steadfastxcelerator.com/clientportal" target="_blank"><button class="orderbutton">Existing Clients - Click Here</button></a>
@@ -95,9 +95,10 @@
 	 </div>
 	 <div class="contact" id="contact">
 		 <h2>CONTACT US</h2>
-		 <p>Want to get ahold of us? Call us during business hours from 8AM to 5PM, Monday through Friday, or email us at any time! </p>
-		 <br><a href="tel:202-499-0943">202-499-0943</a>
+		 <a href="tel:202-499-0943">202-499-0943</a>
 		 <br><a href="mailto:info@steadfastmessenger.com">info@steadfastmessenger.com</a>
+		 <p>Want to get ahold of us? Call us during business hours from 8AM to 5PM, Monday through Friday, or email us at any time! </p>
+		 
 	 </div>
 	 <footer class="footer">
 		 <p> &copy; DK Courier 2020</p>
