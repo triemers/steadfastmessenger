@@ -131,7 +131,8 @@ currently need to: edit BG image*/
 .Services {
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.5rem;
-	background-image: url('css/imgs/mapbg.png');
+	background-image: url('imgs/bgservice.jpg');
+	background-size: cover;
 	padding-bottom: 2rem;
 	padding-left: 2rem;
 	padding-top: 4rem;
