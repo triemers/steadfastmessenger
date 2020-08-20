@@ -63,26 +63,20 @@
 		 <h2>GET A QUOTE</h2>
 		 <p>Please fill out the following form and we will get back to you as soon as possible!</p><br>
 		 <form class="getquote" action="mailto:info@steadfastmessenger.com" method="POST" enctype="text/plain">
-			 <label for="name">Name</label>
+		
 			 <input type="text" id="name" name="name" placeholder="First and Last Name">
-			 <label for="company">Company</label>
 			 <input type="text" id="company" name="company" placeholder="Company Name"><br>
-			 <label for="phone">Phone Number</label>
-			 <input type="tel" id="phone" name="phone" placeholder="800-867-5309">
-			 <label for="email">Email Address</label>
-			 <input type="email" id="email" name="email" placeholder="jenny@tutone.com"><br>
-			 <label for="pick">Pickup Location</label>
-			 <input type="text" id="pick" name="pick" placeholder="400 7th Street">
-			 <label for="drop">Dropoff Location</label>
-			 <input type="text" id="drop" name="drop" placeholder="1600 Pennsylvania Ave"><br>
-			 <label for="service">Service Speed</label>
+			 <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+			 <input type="email" id="email" name="email" placeholder="Email Address"><br>
+			 <input type="text" id="pick" name="pick" placeholder="Pickup Address">
+			 <input type="text" id="drop" name="drop" placeholder="Dropoff Address"><br>
+			 <textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea><br>
 			 <select id="service" name="service">
+				<option value="select">Select Service Speed</option>
 			   <option value="Regular">Regular</option>
 			   <option value="Rush">Rush</option>
 			   <option value="ASAP">Direct ASAP</option>
-		    </select>
-			<label for="notes">Notes</label>
-			<textarea id="notes" rows="4" cols="50" placeholder="Anything else we should know! (box, heavy, etc)"></textarea>
+			</select>
 			<input id="submit" class="button" type="submit" value="Send">
 		 </form>
  		

@@ -100,6 +100,9 @@ h2 {
 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
+.about h2 {
+	padding-top: 1rem;
+}
 
 .abouthead {
 	writing-mode: vertical-lr;
@@ -132,6 +135,10 @@ currently need to: edit BG image, close the gap*/
 	padding-left: 2rem;
 }
 
+.Services h2 {
+	padding-top: 1rem;
+}
+
 .Services li{
 	list-style-type: circle;
 	margin-left: 5%;
@@ -159,29 +166,27 @@ currently need to: edit BG image, close the gap*/
 	border: 0;
 }
 
+.quote h2 {
+	padding-top: 1rem;
+}
+
 form {
 		overflow: hidden;
 	}
 	 
-label {
-		float: left;
-		width: 200px;
-		padding-right: 24px;
-	}
 	 
 input {
-		float: left;
 		width: 200px;
 	}
-#service {
-	float: left;
-	}
 
-#notes {
-	float: left;
-}
+	#notes {
+		margin-top: 1rem;
+	}
 #submit {
 	display: block;
+	margin-left: 41%;
+	margin-top: 3rem;
+	clear: both;
 }
 /* order - p breaks */
 .order {
@@ -194,6 +199,8 @@ input {
 .order h2 {
 	float: right;
 	background-color: #e2e2e2;
+	padding-top: 1rem;
+	padding-right: 1rem;
 }
 
 .order p {
@@ -242,6 +249,10 @@ input {
 	color: white;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.5rem;
+}
+
+.contact h2 {
+	margin-top: 1rem;
 }
 .contact a {
 	text-decoration: none;
