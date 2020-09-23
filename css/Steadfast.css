@@ -77,7 +77,7 @@ nav a:visited {
 	height: auto;
 }
 
-h2 {
+h1 {
 	font-family: Bahnschrift;
 	font-weight: bold;
 	color: #FFA31C;
@@ -101,7 +101,7 @@ h2 {
 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
-.about h2 {
+.about h1 {
 	padding-top: 1rem;
 }
 
@@ -138,7 +138,7 @@ h2 {
 	padding-bottom: 3rem;
 }
 
-.Services h2 {
+.Services h1 {
 	padding-top: 1rem;
 }
 
@@ -171,7 +171,7 @@ h2 {
 	padding-bottom: 3rem;
 }
 
-.quote h2 {
+.quote h1 {
 	padding-top: 1rem;
 }
 
@@ -203,7 +203,7 @@ input {
 	padding-bottom: 3rem;
 
 }
-.order h2 {
+.order h1 {
 	float: right;
 	background-color: #e2e2e2;
 	margin-top: 1rem;
@@ -262,7 +262,7 @@ input {
 	padding-top: 2rem;
 }
 
-.contact h2 {
+.contact h1 {
 	padding-top: 1rem;
 }
 .contact a {
