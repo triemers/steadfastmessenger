@@ -81,13 +81,16 @@ h1 {
 	font-family: Bahnschrift;
 	font-weight: bold;
 	color: #FFA31C;
-	font-size: 3rem;
+	font-size: 4rem;
 	text-shadow: 1px 2px #A25B1C;
 }
 
+strong {
+	color: #FFA31C;
+}
+
 /*About section- rotate*/
-.About {
-	padding-top: 2rem;
+.about {
 	color: #ffffff;
 	background-image: linear-gradient(#D9342E, #822B14);
 	font-family: arial;
@@ -97,15 +100,12 @@ h1 {
 	flex-direction: row;
 	flex-grow: 1;
 	align-content: center;
-	min-height: 25rem;
-	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+	height: 25rem;
+	margin-top: 2rem;
 }
 
 .about h1 {
 	padding-top: 1rem;
-}
-
-.abouthead {
 	writing-mode: vertical-lr;
 	text-orientation: sideways;
 	transform: rotate(180deg);
@@ -113,7 +113,7 @@ h1 {
 	margin-top: 0em;
 }
 
-#aboutp {
+.about p {
 	align-self: center;
 	justify-self: center;
 	padding: 2rem;
@@ -121,13 +121,13 @@ h1 {
 
 
 #DK {
-	width: auto;
 	height: 25rem;
+	width: auto;
 }
 
 
 /* Services */
-.Services {
+.services {
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.5rem;
 	background-image: url('imgs/bgservice.jpg');
@@ -138,11 +138,11 @@ h1 {
 	padding-bottom: 3rem;
 }
 
-.Services h1 {
+.services h1 {
 	padding-top: 1rem;
 }
 
-.Services li{
+.services li{
 	list-style-type: circle;
 	margin-left: 5%;
 }
@@ -206,7 +206,7 @@ input {
 .order h1 {
 	float: right;
 	background-color: #e2e2e2;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	padding-right: 1rem;
 	margin-bottom: 2rem;
 	transform: rotate(20deg);
@@ -311,7 +311,7 @@ input {
 	cursor: pointer;
 }
 /*fix fonts, social media link and icon, bg */
-.footer {
+footer {
 	height: 2rem;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1rem;
