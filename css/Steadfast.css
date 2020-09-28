@@ -116,7 +116,7 @@ strong {
 .about p {
 	align-self: flex-start;
 	justify-self: center;
-	padding-top: 6rem;
+	padding-top: 6 rem;
 	padding-right: .75em;
 	padding-left: 1em;
 	line-height: 1.5em;
