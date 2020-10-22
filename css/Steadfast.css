@@ -40,7 +40,7 @@ nav a {
 	text-decoration: none;
 	font-size: 1.5rem;
 	color: brown;
-	padding: 3px 8px;
+	padding: 2px 8px;
 	margin: 0;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -59,6 +59,7 @@ nav a:visited {
 	text-decoration:none;
 	background-image: linear-gradient(#D9342E, #822B14);
 	padding: 2px 10px;
+	margin: 0;
 	float: right;
 }
 
@@ -105,7 +106,7 @@ strong {
 }
 
 .about h1 {
-	padding-top: 1rem;
+	padding-top: .75rem;
 	writing-mode: vertical-lr;
 	text-orientation: sideways;
 	transform: rotate(180deg);
@@ -116,9 +117,9 @@ strong {
 .about p {
 	align-self: flex-start;
 	justify-self: center;
-	padding-top: 6 rem;
-	padding-right: .75em;
-	padding-left: 1em;
+	padding-top: 4.75rem;
+	padding-right: 3em;
+	padding-left: 2em;
 	line-height: 1.5em;
 }
 
@@ -163,15 +164,16 @@ strong {
 }
 /*wuote- format form - validate w JS send w PHP*/
 .quote {
+	/*text-align: center if want everything centered*/
 	font-family: arial;
 	color: #ffffff;
 	font-size: 1.25rem;
 	background-image: linear-gradient(#D9342E, #822B14);
-	text-align: center;
 	margin: 0;
 	border: 0;
-	padding-top: 4rem;
-	padding-bottom: 3rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1.5rem;
 }
 
 .quote h1 {
@@ -192,14 +194,12 @@ input {
 	}
 #submit {
 	display: block;
-	margin-left: 41%;
-	margin-top: 3rem;
-	clear: both;
+	text-align: center;
 }
 /* order - p breaks */
 .order {
-	padding-top: 4rem;
 	background-color: #e2e2e2;
+	margin-top: 1.75rem;
 	font-size: 1.5rem;
 	color: black;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -209,50 +209,50 @@ input {
 .order h1 {
 	float: right;
 	background-color: #e2e2e2;
-	margin-top: 1.5rem;
 	padding-right: 1rem;
-	margin-bottom: 2rem;
-	transform: rotate(20deg);
-}
-
-.order p {
-	float: left;
-	background-color: #e2e2e2;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	margin-right: 2rem;
 	display: block;
 }
 
-.buttons {
-	display: inline;
-	text-decoration: none;
-	margin-left: 30%;
+#orderinfo {
+	display:block;
+	clear: both;
+	margin-top: 1.5rem;
+	padding-left: 1rem;
 }
-.buttons a {
-	text-decoration: none;
+.order p {
+	background-color: #e2e2e2;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 3rem;
+	display: block;
 }
-.orderbutton {
+/* button */
+.button {
+	text-decoration: none;
 	background-image: linear-gradient(#FC9C1C, #B42A26);
 	border: 1px #B42A26;
+	box-shadow: 1px 4px #A25B1C;
 	text-align: center;
 	margin: 20px;
+	display: table-cell;
+	vertical-align: middle;
 	padding: 6px 20px;
-	width: 220px;
-	height: 80px;
+	width: 200px;
+	height: 75px;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	color: #ffffff;
-	font-size: 1.75rem;
-	text-decoration: none;
-	border-radius: 4%;
+	font-size: 1.25rem;
+	border-radius: 8%;
 }
 
-.orderbutton:hover {
+.button:hover {
 	background-image: linear-gradient(#d10d07, #5a1a18);
 	text-decoration: none;
 	color: #ffffff;
 	cursor: pointer;
+	box-shadow: -1px -2px #B42A26;
 }
+
 
 
 
@@ -286,39 +286,11 @@ input {
 	padding-bottom: 1rem;
 }
 
-.button {
-	background-image: linear-gradient(#FC9C1C, #B42A26);
-	border: 1px #B42A26;
-	text-align: center;
-	margin: 20px;
-	display: table-cell;
-	vertical-align: middle;
-	padding: 6px 20px;
-	width: 220px;
-	height: 80px;
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	color: #ffffff;
-	font-size: 1.75rem;
-	text-decoration: none;
-	border-radius: 4%;
-}
-
-#order {
-	float: right;
-}
-
-.button:hover {
-	background-image: linear-gradient(#d10d07, #5a1a18);
-	text-decoration: none;
-	color: #ffffff;
-	cursor: pointer;
-}
 /*fix fonts, social media link and icon, bg */
 footer {
 	height: 2rem;
 	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1rem;
-	position: fixed;
 	background-image: linear-gradient(#5a1a18, #000);
 	color: white;
 	text-decoration: none;
